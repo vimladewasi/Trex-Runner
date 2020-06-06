@@ -51,8 +51,8 @@ function draw() {
   text("Score: "+ score, 500,50);
   
   if(keyDown("space")) {
+     jumpSound.play();
     trex.velocityY = -10;
-    jump.play();
   }
   
   trex.velocityY = trex.velocityY + 0.8
